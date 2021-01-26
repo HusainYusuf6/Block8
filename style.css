@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+#img1{
+    margin-top: 200px;
+    width: 600px;
+        height: 400px;
+    margin-bottom: 50px
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    background: aqua;
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+}
+#h1{
+font-size: 40px;
+   font-weight: 300px;
+}
+#BIO{
+    font-size: 30px;
+    font-weight: 300px;
+}
+.menu{
+    list-style: none;
+    font-family: monospace;
+    position: absolute;
+    top: 10px;
+        right: 130px;
+            z-index: 10;
+    cursor: pointer;
+}
+.links:hover{
+    background-color: aquamarine;
+}
+.links{
+    float: left;
+    color: blue;
+    padding-top: 5px;
+        padding-left: 9px;
+    padding-right: 9px;
+        padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
